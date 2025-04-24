@@ -88,5 +88,6 @@ def average_fits_files(fits_dir, i, output_path):
 
 fits_dir = "/home/manya/Documents/PHD2_CameraFrames_2025-02-28-190953/"
 output_path = "/home/manya/Documents/Reduction1/"
-average_fits_files(fits_dir, 1, output_path)
+for i in range(1, 87):
+    average_fits_files(fits_dir, i, output_path)
 
